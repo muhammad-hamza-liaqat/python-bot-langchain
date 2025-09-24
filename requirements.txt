@@ -45,6 +45,7 @@ jsonschema==4.25.1
 jsonschema-specifications==2025.9.1
 kubernetes==33.1.0
 langchain==0.3.27
+langchain-chroma==0.2.6
 langchain-community==0.3.29
 langchain-core==0.3.76
 langchain-openai==0.3.33
@@ -80,6 +81,7 @@ pydantic==2.11.9
 pydantic-settings==2.10.1
 pydantic_core==2.33.2
 Pygments==2.19.2
+pypdf==6.1.0
 PyPika==0.48.9
 pyproject_hooks==1.2.0
 python-dateutil==2.9.0.post0
@@ -116,4 +118,3 @@ websockets==15.0.1
 yarl==1.20.1
 zipp==3.23.0
 zstandard==0.25.0
-langchain_chroma
