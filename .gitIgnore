@@ -29,6 +29,7 @@ env/
 ENV/
 .venv/
 venv.bak/
+env311/
 
 # ---- IDE / Editors ----
 .vscode/
