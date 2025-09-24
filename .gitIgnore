@@ -29,6 +29,7 @@ env/
 ENV/
 .venv/
 venv.bak/
+env311/
 
 # ---- IDE / Editors ----
 .vscode/
@@ -70,3 +71,4 @@ coverage.xml
 .env.*.local
 
 models/
+chroma.sqlite3
