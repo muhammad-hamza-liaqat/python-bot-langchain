@@ -1,7 +1,7 @@
 from rest_framework import serializers
-from .models import UploadedDocument
 
-class DocumentSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = UploadedDocument
-        fields = ['id', 'file', 'uploaded_at']
+class UploadFileSerializer(serializers.Serializer):
+    file = serializers.FileField()
+
+class QuerySerializer(serializers.Serializer):
+    query = serializers.CharField(max_length=500)
